@@ -1,0 +1,171 @@
+{
+  "name": "Junk Racer: Drives",
+  "dc": 13,
+  "items": [
+    {
+      "id": "coil-spring-drive",
+      "name": "Coil spring drive",
+      "kind": "item",
+      "rarity": "common",
+      "description": "d20 1–12. A basic drive.",
+      "icon": {
+        "type": "emoji",
+        "value": "🌀"
+      }
+    },
+    {
+      "id": "coil-array",
+      "name": "Coil array",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 13. Link multiple coil spring drives to increase Max Speed (up to +3).",
+      "icon": {
+        "type": "emoji",
+        "value": "🔗"
+      }
+    },
+    {
+      "id": "coil-spring-crank",
+      "name": "Coil spring crank",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 14. Crank to increase Max Speed by 1.",
+      "icon": {
+        "type": "emoji",
+        "value": "🔧"
+      }
+    },
+    {
+      "id": "residuum-drive",
+      "name": "Residuum drive",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 15. Expend spell slots to increase Max Speed.",
+      "icon": {
+        "type": "emoji",
+        "value": "✨"
+      }
+    },
+    {
+      "id": "chaos-drive",
+      "name": "Chaos drive",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 16. Change Speed by 1d4.",
+      "icon": {
+        "type": "emoji",
+        "value": "🎲"
+      }
+    },
+    {
+      "id": "enervation-drive",
+      "name": "Enervation drive",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 17. Damage all occupants to gain temp hp and +2 Max Speed.",
+      "icon": {
+        "type": "emoji",
+        "value": "💀"
+      }
+    },
+    {
+      "id": "elemental-drive",
+      "name": "Elemental drive",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 18. +2 Max Speed; releases a fire elemental if destroyed.",
+      "icon": {
+        "type": "emoji",
+        "value": "🔥"
+      }
+    },
+    {
+      "id": "phlogiston-booster",
+      "name": "Phlogiston booster",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 19. Engage to increase current Speed by 3.",
+      "icon": {
+        "type": "emoji",
+        "value": "🚀"
+      }
+    },
+    {
+      "id": "blink-capacitor",
+      "name": "Blink capacitor",
+      "kind": "item",
+      "rarity": "legendary",
+      "description": "d20 20. While charged, teleport the junk one position.",
+      "icon": {
+        "type": "emoji",
+        "value": "💫"
+      }
+    },
+    {
+      "id": "rusted-scrap",
+      "name": "Rusted Scrap",
+      "kind": "junk",
+      "description": "Corroded beyond any use.",
+      "icon": {
+        "type": "emoji",
+        "value": "🔩"
+      }
+    },
+    {
+      "id": "bent-axle",
+      "name": "Bent Axle",
+      "kind": "junk",
+      "description": "Twisted metal, worth nothing.",
+      "icon": {
+        "type": "emoji",
+        "value": "🪛"
+      }
+    }
+  ],
+  "monsters": [
+    {
+      "id": "mutant-gricks",
+      "name": "Mutant Gricks",
+      "count": 3,
+      "notes": "1d4 + 1 mutant gricks ambush the characters.",
+      "icon": {
+        "type": "emoji",
+        "value": "🐛"
+      }
+    },
+    {
+      "id": "blitzwing",
+      "name": "Blitzwing",
+      "count": 2,
+      "notes": "Adult blue dragon. FIRST Blitzwing revealed: he passes high overhead, no fight, press Victory. SECOND Blitzwing: he strafes the party with Lightning Breath (DC 19 Dex, 12d10 lightning, half on a save), then returns to D. Blitzwing's Scrapyard; press Victory once resolved.",
+      "icon": {
+        "type": "emoji",
+        "value": "🐲"
+      }
+    },
+    {
+      "id": "ghouls",
+      "name": "Ghouls",
+      "count": 1,
+      "notes": "A gang of 1d4 + 2 ghouls dressed as junk racers descend on the party.",
+      "icon": {
+        "type": "emoji",
+        "value": "🧟"
+      }
+    },
+    {
+      "id": "black-pudding",
+      "name": "Black Pudding",
+      "count": 1,
+      "notes": "A random character accidentally steps into what looks like a puddle of oil, but it is actually a black pudding.",
+      "icon": {
+        "type": "emoji",
+        "value": "🫧"
+      }
+    }
+  ],
+  "options": {
+    "monsterPerRound": false,
+    "revealAtEnd": true
+  }
+}

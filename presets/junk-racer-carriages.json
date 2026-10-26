@@ -1,0 +1,138 @@
+{
+  "name": "Junk Racer: Carriages",
+  "dc": 13,
+  "items": [
+    {
+      "id": "basic-carriage",
+      "name": "Basic carriage",
+      "kind": "item",
+      "rarity": "common",
+      "description": "d20 1–15. A sturdy frame to build on.",
+      "icon": {
+        "type": "emoji",
+        "value": "🛒"
+      }
+    },
+    {
+      "id": "reinforced-carriage",
+      "name": "Reinforced carriage",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 16. −1 Max Speed; +10 hp.",
+      "icon": {
+        "type": "emoji",
+        "value": "🧱"
+      }
+    },
+    {
+      "id": "bone-carriage",
+      "name": "Bone carriage",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 17. +1 Max Speed; vulnerability to bludgeoning.",
+      "icon": {
+        "type": "emoji",
+        "value": "🦴"
+      }
+    },
+    {
+      "id": "adamantine-carriage",
+      "name": "Adamantine carriage",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 18. −1 Max Speed; +20 hp; immune to critical hits.",
+      "icon": {
+        "type": "emoji",
+        "value": "🪨"
+      }
+    },
+    {
+      "id": "mithral-carriage",
+      "name": "Mithral carriage",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 19. +1 Max Speed; +10 hp.",
+      "icon": {
+        "type": "emoji",
+        "value": "🥈"
+      }
+    },
+    {
+      "id": "behemoth-carriage",
+      "name": "Behemoth carriage",
+      "kind": "item",
+      "rarity": "legendary",
+      "description": "d20 20. −3 Max Speed; +30 hp; +3d6 damage with ramming.",
+      "icon": {
+        "type": "emoji",
+        "value": "🦣"
+      }
+    },
+    {
+      "id": "rusted-scrap",
+      "name": "Rusted Scrap",
+      "kind": "junk",
+      "description": "Corroded beyond any use.",
+      "icon": {
+        "type": "emoji",
+        "value": "🔩"
+      }
+    },
+    {
+      "id": "bent-axle",
+      "name": "Bent Axle",
+      "kind": "junk",
+      "description": "Twisted metal, worth nothing.",
+      "icon": {
+        "type": "emoji",
+        "value": "🪛"
+      }
+    }
+  ],
+  "monsters": [
+    {
+      "id": "mutant-gricks",
+      "name": "Mutant Gricks",
+      "count": 3,
+      "notes": "1d4 + 1 mutant gricks ambush the characters.",
+      "icon": {
+        "type": "emoji",
+        "value": "🐛"
+      }
+    },
+    {
+      "id": "blitzwing",
+      "name": "Blitzwing",
+      "count": 2,
+      "notes": "Adult blue dragon. FIRST Blitzwing revealed: he passes high overhead, no fight, press Victory. SECOND Blitzwing: he strafes the party with Lightning Breath (DC 19 Dex, 12d10 lightning, half on a save), then returns to D. Blitzwing's Scrapyard; press Victory once resolved.",
+      "icon": {
+        "type": "emoji",
+        "value": "🐲"
+      }
+    },
+    {
+      "id": "ghouls",
+      "name": "Ghouls",
+      "count": 1,
+      "notes": "A gang of 1d4 + 2 ghouls dressed as junk racers descend on the party.",
+      "icon": {
+        "type": "emoji",
+        "value": "🧟"
+      }
+    },
+    {
+      "id": "black-pudding",
+      "name": "Black Pudding",
+      "count": 1,
+      "notes": "A random character accidentally steps into what looks like a puddle of oil, but it is actually a black pudding.",
+      "icon": {
+        "type": "emoji",
+        "value": "🫧"
+      }
+    }
+  ],
+  "options": {
+    "monsterPerRound": false,
+    "revealAtEnd": true
+  }
+}

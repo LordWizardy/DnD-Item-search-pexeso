@@ -1,1 +1,38 @@
-[{"file":"abandoned-wizard-tower.json","name":"Abandoned Wizard Tower"},{"file":"goblin-camp.json","name":"Goblin Camp"},{"file":"sunken-shipwreck.json","name":"Sunken Shipwreck"}]
+[
+  {
+    "file": "abandoned-wizard-tower.json",
+    "name": "Abandoned Wizard Tower"
+  },
+  {
+    "file": "goblin-camp.json",
+    "name": "Goblin Camp"
+  },
+  {
+    "file": "sunken-shipwreck.json",
+    "name": "Sunken Shipwreck"
+  },
+  {
+    "file": "junk-racer-carriages.json",
+    "name": "Junk Racer: Carriages"
+  },
+  {
+    "file": "junk-racer-armor-mods.json",
+    "name": "Junk Racer: Armor Mods"
+  },
+  {
+    "file": "junk-racer-drives.json",
+    "name": "Junk Racer: Drives"
+  },
+  {
+    "file": "junk-racer-extras.json",
+    "name": "Junk Racer: Extras"
+  },
+  {
+    "file": "junk-racer-handling-mods.json",
+    "name": "Junk Racer: Handling Mods"
+  },
+  {
+    "file": "junk-racer-weapon-mods.json",
+    "name": "Junk Racer: Weapon Mods"
+  }
+]
