@@ -1,0 +1,20 @@
+{
+  "name": "Sunken Shipwreck",
+  "dc": 15,
+  "items": [
+    {"id": "potion-of-climbing", "name": "Potion of Climbing", "kind": "item", "rarity": "common", "description": "Advantage on climbing checks for 1 hour.", "icon": {"type": "emoji", "value": "🪢"}},
+    {"id": "healers-kit", "name": "Healer's Kit", "kind": "item", "rarity": "common", "description": "10 uses. Stabilizes a dying creature without a check.", "icon": {"type": "emoji", "value": "🩹"}},
+    {"id": "potion-of-healing", "name": "Potion of Healing", "kind": "item", "rarity": "common", "description": "Heals 2d4+2 HP.", "icon": {"type": "emoji", "value": "🧪"}},
+    {"id": "pearl-of-power", "name": "Pearl of Power", "kind": "item", "rarity": "uncommon", "description": "Cast one spell of 3rd level or lower without a spell slot, once per day.", "icon": {"type": "emoji", "value": "⚪"}},
+    {"id": "trident-of-fish-command", "name": "Trident of Fish Command", "kind": "item", "rarity": "rare", "description": "Summons and commands fish of the sea.", "icon": {"type": "emoji", "value": "🔱"}},
+    {"id": "wand-of-lightning-bolts", "name": "Wand of Lightning Bolts", "kind": "item", "rarity": "rare", "description": "Casts Lightning Bolt from its charges.", "icon": {"type": "emoji", "value": "⚡"}},
+    {"id": "ring-of-regeneration", "name": "Ring of Regeneration", "kind": "item", "rarity": "veryRare", "description": "Regain 1d6 HP every 10 minutes while attuned.", "icon": {"type": "emoji", "value": "💍"}},
+    {"id": "waterlogged-logbook", "name": "Waterlogged Logbook", "kind": "junk", "description": "Pages turned to pulp.", "icon": {"type": "emoji", "value": "📓"}},
+    {"id": "salt-crusted-shell", "name": "Salt-Crusted Shell", "kind": "junk", "description": "Empty and crusted with salt.", "icon": {"type": "emoji", "value": "🐚"}}
+  ],
+  "monsters": [
+    {"id": "reef-shark", "name": "Reef Shark", "count": 1, "notes": "CR 1/2 — use 1 reef shark. Circles, bites, retreats.", "icon": {"type": "emoji", "value": "🦈"}},
+    {"id": "skeleton", "name": "Skeleton", "count": 1, "notes": "CR 1/4 — use 1 skeleton. Climbs out of the hull and grabs for loot.", "icon": {"type": "emoji", "value": "💀"}}
+  ],
+  "options": {"monsterPerRound": false, "revealAtEnd": true}
+}
