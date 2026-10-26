@@ -1,0 +1,21 @@
+{
+  "name": "Goblin Camp",
+  "dc": 12,
+  "items": [
+    {"id": "alchemists-fire", "name": "Alchemist's Fire", "kind": "item", "rarity": "common", "description": "Thrown flask: 1d4 fire damage each turn until doused.", "icon": {"type": "emoji", "value": "🔥"}},
+    {"id": "antitoxin", "name": "Antitoxin", "kind": "item", "rarity": "common", "description": "Advantage on saves against poison for 1 hour.", "icon": {"type": "emoji", "value": "🧴"}},
+    {"id": "cloak-of-protection", "name": "Cloak of Protection", "kind": "item", "rarity": "uncommon", "description": "+1 to AC and saving throws while attuned.", "icon": {"type": "emoji", "value": "🧥"}},
+    {"id": "boots-of-elvenkind", "name": "Boots of Elvenkind", "kind": "item", "rarity": "uncommon", "description": "Advantage on Stealth checks. Footsteps make no sound.", "icon": {"type": "emoji", "value": "🥾"}},
+    {"id": "ring-of-free-action", "name": "Ring of Free Action", "kind": "item", "rarity": "rare", "description": "Ignore difficult terrain. Magic cannot slow or paralyze you.", "icon": {"type": "emoji", "value": "💍"}},
+    {"id": "dagger-of-venom", "name": "Dagger of Venom", "kind": "item", "rarity": "rare", "description": "A +1 dagger with a poisoned edge. Limited charges.", "icon": {"type": "emoji", "value": "🗡️"}},
+    {"id": "potion-of-supreme-healing", "name": "Potion of Supreme Healing", "kind": "item", "rarity": "veryRare", "description": "Heals 10d4+20 HP.", "icon": {"type": "emoji", "value": "💖"}},
+    {"id": "chewed-bones", "name": "Chewed Bones", "kind": "junk", "description": "Gnawed clean. Goblins don't waste food.", "icon": {"type": "emoji", "value": "🦴"}},
+    {"id": "broken-goblin-idol", "name": "Broken Goblin Idol", "kind": "junk", "description": "Crude clay figure with a cracked head.", "icon": {"type": "emoji", "value": "🗿"}}
+  ],
+  "monsters": [
+    {"id": "goblin", "name": "Goblin", "count": 2, "notes": "CR 1/4 — use 2 goblins, MM p.166. Nimble escape, hides behind tents.", "icon": {"type": "emoji", "value": "👺"}},
+    {"id": "hobgoblin-sentry", "name": "Hobgoblin Sentry", "count": 1, "notes": "CR 1/2 — use 1 hobgoblin. Holds the line and shouts for help.", "icon": {"type": "emoji", "value": "🪓"}},
+    {"id": "goblin-boss", "name": "Goblin Boss", "count": 1, "notes": "CR 1 — use 1 goblin boss. Stays back and orders the goblins around.", "icon": {"type": "emoji", "value": "👑"}}
+  ],
+  "options": {"monsterPerRound": false, "revealAtEnd": true}
+}

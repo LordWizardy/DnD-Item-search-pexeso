@@ -1,0 +1,140 @@
+{
+  "name": "Abandoned Wizard Tower",
+  "dc": 13,
+  "items": [
+    {
+      "id": "potion-of-healing",
+      "name": "Potion of Healing",
+      "kind": "item",
+      "rarity": "common",
+      "description": "Heals 2d4+2 HP.",
+      "icon": {
+        "type": "emoji",
+        "value": "🧪"
+      }
+    },
+    {
+      "id": "spell-scroll-cantrip",
+      "name": "Spell Scroll (Cantrip)",
+      "kind": "item",
+      "rarity": "common",
+      "description": "Holds one cantrip, castable by anyone who can read it.",
+      "icon": {
+        "type": "emoji",
+        "value": "📜"
+      }
+    },
+    {
+      "id": "ring-of-protection",
+      "name": "Ring of Protection",
+      "kind": "item",
+      "rarity": "rare",
+      "description": "+1 to AC and saving throws while worn.",
+      "icon": {
+        "type": "emoji",
+        "value": "💍"
+      }
+    },
+    {
+      "id": "potion-of-greater-healing",
+      "name": "Potion of Greater Healing",
+      "kind": "item",
+      "rarity": "uncommon",
+      "description": "Heals 4d4+4 HP.",
+      "icon": {
+        "type": "emoji",
+        "value": "🍾"
+      }
+    },
+    {
+      "id": "wand-of-magic-missile",
+      "name": "Wand of Magic Missiles",
+      "kind": "item",
+      "rarity": "uncommon",
+      "description": "Casts Magic Missile from 1d4+1 charges.",
+      "icon": {
+        "type": "emoji",
+        "value": "🪄"
+      }
+    },
+    {
+      "id": "bag-of-holding",
+      "name": "Bag of Holding",
+      "kind": "item",
+      "rarity": "rare",
+      "description": "Holds up to 500 lb in an extradimensional space.",
+      "icon": {
+        "type": "emoji",
+        "value": "👜"
+      }
+    },
+    {
+      "id": "robe-of-stars",
+      "name": "Robe of Stars",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "+1 to saves and attack rolls. Can grant flight.",
+      "icon": {
+        "type": "emoji",
+        "value": "🧥"
+      }
+    },
+    {
+      "id": "staff-of-the-magi",
+      "name": "Staff of the Magi",
+      "kind": "item",
+      "rarity": "legendary",
+      "description": "+2 to spell attacks and spell save DC. Stores spells.",
+      "icon": {
+        "type": "emoji",
+        "value": "🔮"
+      }
+    },
+    {
+      "id": "burned-candle-stub",
+      "name": "Burned Candle Stub",
+      "kind": "junk",
+      "description": "Burned down to nothing useful.",
+      "icon": {
+        "type": "emoji",
+        "value": "🕯️"
+      }
+    },
+    {
+      "id": "water-stained-spellbook",
+      "name": "Water-Stained Spellbook",
+      "kind": "junk",
+      "description": "Pages are unreadable.",
+      "icon": {
+        "type": "emoji",
+        "value": "📚"
+      }
+    }
+  ],
+  "monsters": [
+    {
+      "id": "animated-armor",
+      "name": "Animated Armor",
+      "count": 1,
+      "notes": "CR 1 — use 1 animated armor. Slow, but hits hard.",
+      "icon": {
+        "type": "emoji",
+        "value": "🛡️"
+      }
+    },
+    {
+      "id": "specter",
+      "name": "Specter",
+      "count": 1,
+      "notes": "CR 1 — use 1 specter. Flies through walls, Life Drain reduces max HP.",
+      "icon": {
+        "type": "emoji",
+        "value": "👻"
+      }
+    }
+  ],
+  "options": {
+    "monsterPerRound": false,
+    "revealAtEnd": true
+  }
+}
