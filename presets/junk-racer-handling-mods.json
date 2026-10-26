@@ -1,0 +1,149 @@
+{
+  "name": "Junk Racer: Handling Mods",
+  "dc": 13,
+  "items": [
+    {
+      "id": "tires",
+      "name": "Tires",
+      "kind": "item",
+      "rarity": "common",
+      "description": "d20 1–14. Find 1d4 tires.",
+      "icon": {
+        "type": "emoji",
+        "value": "🛞"
+      }
+    },
+    {
+      "id": "masterwork-accelerator",
+      "name": "Masterwork accelerator",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 15. Increase current Speed by up to 3.",
+      "icon": {
+        "type": "emoji",
+        "value": "⏩"
+      }
+    },
+    {
+      "id": "masterwork-brakes",
+      "name": "Masterwork brakes",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 16. Reduce current Speed by up to 3.",
+      "icon": {
+        "type": "emoji",
+        "value": "🛑"
+      }
+    },
+    {
+      "id": "masterwork-steering",
+      "name": "Masterwork steering",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 17. Advantage on handling checks to change lanes.",
+      "icon": {
+        "type": "emoji",
+        "value": "☸️"
+      }
+    },
+    {
+      "id": "wyvernhide-tires",
+      "name": "Wyvernhide tires",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 18. Find 1d4 tires. +2 to all handling checks.",
+      "icon": {
+        "type": "emoji",
+        "value": "🐉"
+      }
+    },
+    {
+      "id": "parachute",
+      "name": "Parachute",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 19. Deploy to reduce current Speed by 5.",
+      "icon": {
+        "type": "emoji",
+        "value": "🪂"
+      }
+    },
+    {
+      "id": "psionic-link",
+      "name": "Psionic link",
+      "kind": "item",
+      "rarity": "legendary",
+      "description": "d20 20. +1d4 to handling checks; when the junk takes damage, the driver takes half.",
+      "icon": {
+        "type": "emoji",
+        "value": "🧠"
+      }
+    },
+    {
+      "id": "rusted-scrap",
+      "name": "Rusted Scrap",
+      "kind": "junk",
+      "description": "Corroded beyond any use.",
+      "icon": {
+        "type": "emoji",
+        "value": "🔩"
+      }
+    },
+    {
+      "id": "bent-axle",
+      "name": "Bent Axle",
+      "kind": "junk",
+      "description": "Twisted metal, worth nothing.",
+      "icon": {
+        "type": "emoji",
+        "value": "🪛"
+      }
+    }
+  ],
+  "monsters": [
+    {
+      "id": "mutant-gricks",
+      "name": "Mutant Gricks",
+      "count": 3,
+      "notes": "1d4 + 1 mutant gricks ambush the characters.",
+      "icon": {
+        "type": "emoji",
+        "value": "🐛"
+      }
+    },
+    {
+      "id": "blitzwing",
+      "name": "Blitzwing",
+      "count": 2,
+      "notes": "Adult blue dragon. FIRST Blitzwing revealed: he passes high overhead, no fight, press Victory. SECOND Blitzwing: he strafes the party with Lightning Breath (DC 19 Dex, 12d10 lightning, half on a save), then returns to D. Blitzwing's Scrapyard; press Victory once resolved.",
+      "icon": {
+        "type": "emoji",
+        "value": "🐲"
+      }
+    },
+    {
+      "id": "ghouls",
+      "name": "Ghouls",
+      "count": 1,
+      "notes": "A gang of 1d4 + 2 ghouls dressed as junk racers descend on the party.",
+      "icon": {
+        "type": "emoji",
+        "value": "🧟"
+      }
+    },
+    {
+      "id": "black-pudding",
+      "name": "Black Pudding",
+      "count": 1,
+      "notes": "A random character accidentally steps into what looks like a puddle of oil, but it is actually a black pudding.",
+      "icon": {
+        "type": "emoji",
+        "value": "🫧"
+      }
+    }
+  ],
+  "options": {
+    "monsterPerRound": false,
+    "revealAtEnd": true
+  }
+}

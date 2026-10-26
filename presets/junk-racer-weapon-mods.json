@@ -1,0 +1,237 @@
+{
+  "name": "Junk Racer: Weapon Mods",
+  "dc": 13,
+  "items": [
+    {
+      "id": "spikes",
+      "name": "Spikes",
+      "kind": "item",
+      "rarity": "uncommon",
+      "description": "d20 1–6. +1d6 piercing while ramming (max +3d6).",
+      "icon": {
+        "type": "emoji",
+        "value": "📌"
+      }
+    },
+    {
+      "id": "auto-sling",
+      "name": "Auto-sling",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 7. −1 Max Speed; 120 ft (2 positions); up to 3 targets in the same position; 2d6 piercing.",
+      "icon": {
+        "type": "emoji",
+        "value": "🪃"
+      }
+    },
+    {
+      "id": "bolt-thrower",
+      "name": "Bolt thrower",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 8. −1 Max Speed; 120 ft (2 positions); 6d12 piercing; reload as an action.",
+      "icon": {
+        "type": "emoji",
+        "value": "🏹"
+      }
+    },
+    {
+      "id": "ankheg-spit-launcher",
+      "name": "Ankheg spit launcher",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 9. −1 Max Speed; 60 ft (1 position); 4d4 acid and −1 AC.",
+      "icon": {
+        "type": "emoji",
+        "value": "🧪"
+      }
+    },
+    {
+      "id": "chain-gun",
+      "name": "Chain gun",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 10. −1 Max Speed; 60 ft (1 position); 3d6 bludgeoning and restrained (DC 13); reload as an action.",
+      "icon": {
+        "type": "emoji",
+        "value": "⛓️"
+      }
+    },
+    {
+      "id": "thunder-cannon",
+      "name": "Thunder cannon",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 11. −1 Max Speed; 60 ft (1 position); 3d8 thunder; driver must make a handling check.",
+      "icon": {
+        "type": "emoji",
+        "value": "💥"
+      }
+    },
+    {
+      "id": "tyrant-rifle",
+      "name": "Tyrant rifle",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 12. 3 uses; 60 ft (1 position); 10d6 force or destroy a mod.",
+      "icon": {
+        "type": "emoji",
+        "value": "👁️"
+      }
+    },
+    {
+      "id": "flamethrower",
+      "name": "Flamethrower",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 13. −1 Max Speed; 15-ft cone (adjacent); 3d6 fire.",
+      "icon": {
+        "type": "emoji",
+        "value": "🔥"
+      }
+    },
+    {
+      "id": "magic-missile-launcher",
+      "name": "Magic missile launcher",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 14. −1 Max Speed; 7 uses; 120 ft (2 positions); 3d4 + 3 force.",
+      "icon": {
+        "type": "emoji",
+        "value": "✨"
+      }
+    },
+    {
+      "id": "flak-cannon",
+      "name": "Flak cannon",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 15. −1 Max Speed; 60 ft (1 position); 3d6 piercing; reload as an action.",
+      "icon": {
+        "type": "emoji",
+        "value": "💣"
+      }
+    },
+    {
+      "id": "smokescreen-projector",
+      "name": "Smokescreen projector",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 16. Create a hazard directly behind you.",
+      "icon": {
+        "type": "emoji",
+        "value": "🌫️"
+      }
+    },
+    {
+      "id": "grease-sprayer",
+      "name": "Grease sprayer",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 17. Create a hazard directly behind you.",
+      "icon": {
+        "type": "emoji",
+        "value": "🧴"
+      }
+    },
+    {
+      "id": "oil-sprayer",
+      "name": "Oil sprayer",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 18. Adjacent junk makes a handling check and becomes vulnerable to fire.",
+      "icon": {
+        "type": "emoji",
+        "value": "🛢️"
+      }
+    },
+    {
+      "id": "flaming-oil-barrel",
+      "name": "Flaming oil barrel",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 19. −1 Max Speed; hazard directly behind you; 8d6 fire.",
+      "icon": {
+        "type": "emoji",
+        "value": "🔥"
+      }
+    },
+    {
+      "id": "cage-of-stirges",
+      "name": "Cage of stirges",
+      "kind": "item",
+      "rarity": "legendary",
+      "description": "d20 20. 3d6 stirges attack occupants of a junk adjacent to or directly behind you.",
+      "icon": {
+        "type": "emoji",
+        "value": "🦟"
+      }
+    },
+    {
+      "id": "rusted-scrap",
+      "name": "Rusted Scrap",
+      "kind": "junk",
+      "description": "Corroded beyond any use.",
+      "icon": {
+        "type": "emoji",
+        "value": "🔩"
+      }
+    },
+    {
+      "id": "bent-axle",
+      "name": "Bent Axle",
+      "kind": "junk",
+      "description": "Twisted metal, worth nothing.",
+      "icon": {
+        "type": "emoji",
+        "value": "🪛"
+      }
+    }
+  ],
+  "monsters": [
+    {
+      "id": "mutant-gricks",
+      "name": "Mutant Gricks",
+      "count": 3,
+      "notes": "1d4 + 1 mutant gricks ambush the characters.",
+      "icon": {
+        "type": "emoji",
+        "value": "🐛"
+      }
+    },
+    {
+      "id": "blitzwing",
+      "name": "Blitzwing",
+      "count": 2,
+      "notes": "Adult blue dragon. FIRST Blitzwing revealed: he passes high overhead, no fight, press Victory. SECOND Blitzwing: he strafes the party with Lightning Breath (DC 19 Dex, 12d10 lightning, half on a save), then returns to D. Blitzwing's Scrapyard; press Victory once resolved.",
+      "icon": {
+        "type": "emoji",
+        "value": "🐲"
+      }
+    },
+    {
+      "id": "ghouls",
+      "name": "Ghouls",
+      "count": 1,
+      "notes": "A gang of 1d4 + 2 ghouls dressed as junk racers descend on the party.",
+      "icon": {
+        "type": "emoji",
+        "value": "🧟"
+      }
+    },
+    {
+      "id": "black-pudding",
+      "name": "Black Pudding",
+      "count": 1,
+      "notes": "A random character accidentally steps into what looks like a puddle of oil, but it is actually a black pudding.",
+      "icon": {
+        "type": "emoji",
+        "value": "🫧"
+      }
+    }
+  ],
+  "options": {
+    "monsterPerRound": false,
+    "revealAtEnd": true
+  }
+}

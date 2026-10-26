@@ -1,0 +1,171 @@
+{
+  "name": "Junk Racer: Armor Mods",
+  "dc": 13,
+  "items": [
+    {
+      "id": "armor-plate-steel",
+      "name": "Armor plate (steel)",
+      "kind": "item",
+      "rarity": "common",
+      "description": "d20 1–12. −1 Max Speed; +1 AC.",
+      "icon": {
+        "type": "emoji",
+        "value": "🛡️"
+      }
+    },
+    {
+      "id": "armor-plate-adamantine",
+      "name": "Armor plate (adamantine)",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 13. −1 Max Speed; +2 AC.",
+      "icon": {
+        "type": "emoji",
+        "value": "🪨"
+      }
+    },
+    {
+      "id": "armor-plate-mithral",
+      "name": "Armor plate (mithral)",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 14. +1 AC.",
+      "icon": {
+        "type": "emoji",
+        "value": "🥈"
+      }
+    },
+    {
+      "id": "glass-steel-windshield",
+      "name": "Glass-steel windshield",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 15. +2 AC vs. attacks made directly ahead of you.",
+      "icon": {
+        "type": "emoji",
+        "value": "🪟"
+      }
+    },
+    {
+      "id": "trihorn-frill",
+      "name": "Trihorn frill",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 16. −1 Max Speed; +2 AC vs. attacks from ahead; +3d6 piercing while ramming.",
+      "icon": {
+        "type": "emoji",
+        "value": "🦏"
+      }
+    },
+    {
+      "id": "shock-absorber",
+      "name": "Shock absorber",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 17. Absorbs up to 50 lightning damage.",
+      "icon": {
+        "type": "emoji",
+        "value": "⚡"
+      }
+    },
+    {
+      "id": "arcane-dampener",
+      "name": "Arcane dampener",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 18. Advantage on saves vs. spells.",
+      "icon": {
+        "type": "emoji",
+        "value": "🔮"
+      }
+    },
+    {
+      "id": "shield-generator",
+      "name": "Shield generator",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 19. As a reaction, +5 AC until the start of your next turn (table says +2; description says +5).",
+      "icon": {
+        "type": "emoji",
+        "value": "🔰"
+      }
+    },
+    {
+      "id": "displacer-field-generator",
+      "name": "Displacer field generator",
+      "kind": "item",
+      "rarity": "legendary",
+      "description": "d20 20. Attacks against your junk have disadvantage.",
+      "icon": {
+        "type": "emoji",
+        "value": "🐆"
+      }
+    },
+    {
+      "id": "rusted-scrap",
+      "name": "Rusted Scrap",
+      "kind": "junk",
+      "description": "Corroded beyond any use.",
+      "icon": {
+        "type": "emoji",
+        "value": "🔩"
+      }
+    },
+    {
+      "id": "bent-axle",
+      "name": "Bent Axle",
+      "kind": "junk",
+      "description": "Twisted metal, worth nothing.",
+      "icon": {
+        "type": "emoji",
+        "value": "🪛"
+      }
+    }
+  ],
+  "monsters": [
+    {
+      "id": "mutant-gricks",
+      "name": "Mutant Gricks",
+      "count": 3,
+      "notes": "1d4 + 1 mutant gricks ambush the characters.",
+      "icon": {
+        "type": "emoji",
+        "value": "🐛"
+      }
+    },
+    {
+      "id": "blitzwing",
+      "name": "Blitzwing",
+      "count": 2,
+      "notes": "Adult blue dragon. FIRST Blitzwing revealed: he passes high overhead, no fight, press Victory. SECOND Blitzwing: he strafes the party with Lightning Breath (DC 19 Dex, 12d10 lightning, half on a save), then returns to D. Blitzwing's Scrapyard; press Victory once resolved.",
+      "icon": {
+        "type": "emoji",
+        "value": "🐲"
+      }
+    },
+    {
+      "id": "ghouls",
+      "name": "Ghouls",
+      "count": 1,
+      "notes": "A gang of 1d4 + 2 ghouls dressed as junk racers descend on the party.",
+      "icon": {
+        "type": "emoji",
+        "value": "🧟"
+      }
+    },
+    {
+      "id": "black-pudding",
+      "name": "Black Pudding",
+      "count": 1,
+      "notes": "A random character accidentally steps into what looks like a puddle of oil, but it is actually a black pudding.",
+      "icon": {
+        "type": "emoji",
+        "value": "🫧"
+      }
+    }
+  ],
+  "options": {
+    "monsterPerRound": false,
+    "revealAtEnd": true
+  }
+}

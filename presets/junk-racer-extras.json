@@ -1,0 +1,160 @@
+{
+  "name": "Junk Racer: Extras",
+  "dc": 13,
+  "items": [
+    {
+      "id": "vault-poles",
+      "name": "Vault poles",
+      "kind": "item",
+      "rarity": "uncommon",
+      "description": "d20 1–5. Advantage on checks to board adjacent junks.",
+      "icon": {
+        "type": "emoji",
+        "value": "🎋"
+      }
+    },
+    {
+      "id": "safety-harnesses",
+      "name": "Safety harnesses",
+      "kind": "item",
+      "rarity": "uncommon",
+      "description": "d20 6–10. Resistance to bludgeoning from Out-of-Control or Massive Damage effects.",
+      "icon": {
+        "type": "emoji",
+        "value": "🦺"
+      }
+    },
+    {
+      "id": "rear-view-mirrors",
+      "name": "Rear-view mirrors",
+      "kind": "item",
+      "rarity": "uncommon",
+      "description": "d20 11–15. +1 AC and saves against effects from behind.",
+      "icon": {
+        "type": "emoji",
+        "value": "🪞"
+      }
+    },
+    {
+      "id": "dashboard-saint",
+      "name": "Dashboard saint",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 16. Once per race, the driver can reroll a handling check.",
+      "icon": {
+        "type": "emoji",
+        "value": "😇"
+      }
+    },
+    {
+      "id": "infrared-windshield",
+      "name": "Infrared windshield",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 17. Driver gains darkvision and advantage on handling checks triggered by smokescreens.",
+      "icon": {
+        "type": "emoji",
+        "value": "👓"
+      }
+    },
+    {
+      "id": "auto-pilot",
+      "name": "Auto-pilot",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 18. Animated armor with +4 to handling checks.",
+      "icon": {
+        "type": "emoji",
+        "value": "🤖"
+      }
+    },
+    {
+      "id": "necro-piloting-system",
+      "name": "Necro-piloting system",
+      "kind": "item",
+      "rarity": "veryRare",
+      "description": "d20 19. Driver is raised as a zombie.",
+      "icon": {
+        "type": "emoji",
+        "value": "🧟"
+      }
+    },
+    {
+      "id": "tarrasque-hood-ornament",
+      "name": "Tarrasque hood ornament",
+      "kind": "item",
+      "rarity": "legendary",
+      "description": "d20 20. −2 Max Speed; +2d6 piercing while ramming; resistance to bludgeoning, piercing, slashing; DC 17 Wis save to board your junk.",
+      "icon": {
+        "type": "emoji",
+        "value": "🦖"
+      }
+    },
+    {
+      "id": "rusted-scrap",
+      "name": "Rusted Scrap",
+      "kind": "junk",
+      "description": "Corroded beyond any use.",
+      "icon": {
+        "type": "emoji",
+        "value": "🔩"
+      }
+    },
+    {
+      "id": "bent-axle",
+      "name": "Bent Axle",
+      "kind": "junk",
+      "description": "Twisted metal, worth nothing.",
+      "icon": {
+        "type": "emoji",
+        "value": "🪛"
+      }
+    }
+  ],
+  "monsters": [
+    {
+      "id": "mutant-gricks",
+      "name": "Mutant Gricks",
+      "count": 3,
+      "notes": "1d4 + 1 mutant gricks ambush the characters.",
+      "icon": {
+        "type": "emoji",
+        "value": "🐛"
+      }
+    },
+    {
+      "id": "blitzwing",
+      "name": "Blitzwing",
+      "count": 2,
+      "notes": "Adult blue dragon. FIRST Blitzwing revealed: he passes high overhead, no fight, press Victory. SECOND Blitzwing: he strafes the party with Lightning Breath (DC 19 Dex, 12d10 lightning, half on a save), then returns to D. Blitzwing's Scrapyard; press Victory once resolved.",
+      "icon": {
+        "type": "emoji",
+        "value": "🐲"
+      }
+    },
+    {
+      "id": "ghouls",
+      "name": "Ghouls",
+      "count": 1,
+      "notes": "A gang of 1d4 + 2 ghouls dressed as junk racers descend on the party.",
+      "icon": {
+        "type": "emoji",
+        "value": "🧟"
+      }
+    },
+    {
+      "id": "black-pudding",
+      "name": "Black Pudding",
+      "count": 1,
+      "notes": "A random character accidentally steps into what looks like a puddle of oil, but it is actually a black pudding.",
+      "icon": {
+        "type": "emoji",
+        "value": "🫧"
+      }
+    }
+  ],
+  "options": {
+    "monsterPerRound": false,
+    "revealAtEnd": true
+  }
+}
