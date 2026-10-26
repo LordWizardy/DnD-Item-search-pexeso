@@ -1,0 +1,8 @@
+{
+  "name": "dnd-scavenging-pexeso",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}
